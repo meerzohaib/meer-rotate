@@ -6,8 +6,9 @@ var sheet = function () {
     return style.sheet;
 };
 
-sheet.addRule('.ps-rotate-over', 'transform:rotate( -180deg );');
+sheet.addRule('.ps-rotate-over', 'transform:rotate( -360deg );');
 sheet.addRule('.ps-rotate-out', 'transform:rotate( -180deg );');
+sheet.addRule('.ps-rotate-up', 'transform:rotate( -0deg );');
 
 var rotateEls = document.getElementByClassName('rotate');
 for(var i=0; i<rotateEls.length; i++) {
