@@ -1,0 +1,21 @@
+{
+  "name": "meer-rotate",
+  "version": "0.0.1",
+  "description": "a sample element rotate library",
+  "main": "rotate.js",
+  "keywords": [
+    "rotate",
+    "meer"
+  ],
+  "authors": [
+    "Meer Zohaib"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
